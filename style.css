@@ -30,11 +30,10 @@ body {
   background: rgba(124, 78, 228, 1);
   color: rgba(255, 255, 255, 1);
   border-radius: 8px;
-
 }
 
 .btun:hover {
-  background: rgb(3, 126, 183);
+ background: rgb(108, 75, 187);
   color: rgba(255, 255, 255, 1);
 }
 /* hero section */
@@ -120,4 +119,8 @@ color: rgba(255, 255, 255, 1);
 .custom-icons {
  background: rgba(124, 78, 228, 1);
 
+}
+
+.line{
+    border: 1px solid rgba(124, 78, 228, 1)
 }
