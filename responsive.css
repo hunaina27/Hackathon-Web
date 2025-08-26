@@ -1,0 +1,22 @@
+/* logo responsive */
+.logo-img {
+  height: 30px; /* default */
+}
+
+@media (max-width: 991px) {
+  .logo-img {
+    height: 2rem !important;
+  }
+}
+
+/* hero section */
+h1 {
+font-size: 50px;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    h1 {
+        font-size: 35px;
+    }
+
+}
