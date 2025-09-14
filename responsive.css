@@ -8,6 +8,15 @@
     height: 2rem !important;
   }
 }
+.custom-icon {
+  color: rgba(51, 51, 51, 1);
+}
+
+@media (max-width: 576px) {
+  .custom-icon {
+    display: none;
+  }
+}
 
 /* hero section */
 h1 {
@@ -19,4 +28,29 @@ font-size: 50px;
         font-size: 35px;
     }
 
+}
+
+.section-heading{
+  font-size: 35px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0; 
+}
+
+/* Button look */
+.btn.btun{
+  border-radius: 10px;
+  padding: 12px 25px;
+}
+
+/* Mobile tuning */
+@media (max-width: 576px) {
+  .section-heading{
+    font-size: 25px; 
+  }
+  .btn.btun{
+   padding: 8px 19px;
+  
+  }
 }
